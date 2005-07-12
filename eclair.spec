@@ -1,4 +1,5 @@
 Summary:	EFL media player
+Summary(pl):	Odtwarzacz multimedialny EFL
 Name:		eclair
 Version:	0.0.1
 %define	_snap	20050707
@@ -12,7 +13,7 @@ URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	esmart-devel
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	libglade2-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
@@ -22,6 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 EFL media player.
+
+%description -l pl
+Odtwarzacz multimedialny EFL.
 
 %prep
 %setup -q -n %{name}
