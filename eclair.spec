@@ -2,19 +2,17 @@ Summary:	EFL media player
 Summary(pl):	Odtwarzacz multimedialny EFL
 Name:		eclair
 Version:	0.0.1
-%define	_snap	20050707
-Release:	0.%{_snap}.0.1
+%define	_snap	20060201
+Release:	0.%{_snap}.1
 License:	GPL v2
 Group:		X11/Applications
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
-Source0:	http://sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.gz
-# Source0-md5:	610022a6acc857630375c2faf5d4bc85
+Source0:	http://sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.bz2
+# Source0-md5:	0196385d38bd22bb17165b0c202b0f46
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	esmart-devel
-BuildRequires:	gtk+2-devel >= 2.0.0
-BuildRequires:	libglade2-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
 BuildRequires:	sqlite3-devel
