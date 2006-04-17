@@ -12,6 +12,7 @@ Source0:	http://sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.bz
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	emotion-devel
 BuildRequires:	esmart-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
