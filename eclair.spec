@@ -3,7 +3,7 @@ Summary(pl):	Odtwarzacz multimedialny EFL
 Name:		eclair
 Version:	0.0.1
 %define	_snap	20060201
-Release:	0.%{_snap}.2
+Release:	0.%{_snap}.3
 License:	GPL v2
 Group:		X11/Applications
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
@@ -17,6 +17,7 @@ BuildRequires:	esmart-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel
 BuildRequires:	sqlite3-devel
+BuildRequires:	taglib-devel
 Requires:	fonts-TTF-bitstream-vera
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
