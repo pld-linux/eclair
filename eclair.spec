@@ -1,5 +1,5 @@
 Summary:	EFL media player
-Summary(pl):	Odtwarzacz multimedialny EFL
+Summary(pl.UTF-8):   Odtwarzacz multimedialny EFL
 Name:		eclair
 Version:	0.0.1
 %define	_snap	20060201
@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 EFL media player.
 
-%description -l pl
+%description -l pl.UTF-8
 Odtwarzacz multimedialny EFL.
 
 %prep
